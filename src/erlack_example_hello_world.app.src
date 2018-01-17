@@ -1,0 +1,14 @@
+{application, erlack_example_hello_world,
+ [{description, "Erlack Example Hello World"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    ecgi,
+    erlack
+   ]},
+  {env,[]},
+  {modules, []},
+  {licenses, ["Apache 2.0"]}
+ ]}.
